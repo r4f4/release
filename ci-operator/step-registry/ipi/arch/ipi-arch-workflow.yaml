@@ -3,7 +3,9 @@ workflow:
   steps:
     env:
     - name: ARCH  
-      REQUIRED_VARIABLE: s390x        
+      REQUIRED_VARIABLE: 
+    - name: MULTIARCH_RELEASE_IMAGE_LATEST
+      REQUIRED_VARIABLE:       
     pre:
     - chain: ipi-arch-pre
     post:
