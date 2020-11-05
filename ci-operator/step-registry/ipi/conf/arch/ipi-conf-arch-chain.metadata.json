@@ -1,0 +1,10 @@
+{
+	"path": "ipi/arch/ipi-conf-arch-chain.yaml",
+	"owners": {
+		"approvers": [
+			"jaypoulz",
+			"deepsm007"
+	
+		]
+	}
+}
