@@ -1,7 +1,7 @@
 chain:
   as: ipi-arch-pre-sharednetwork
   steps:
-  - chain: ipi-conf-arch-sharednetwork
+#  - chain: ipi-conf-arch-sharednetwork
   - chain: ipi-install
   documentation: |-
     The IPI setup step contains all steps that provision an Openshift cluster in a shared configuration on multi-arch

@@ -2,9 +2,16 @@
 	"path": "ipi/arch/ipi-arch-workflow.yaml",
 	"owners": {
 		"approvers": [
-			"jaypoulz",
-			"deepsm007"
-	
+			"smarterclayton",
+			"wking",
+			"stevekuznetsov",
+			"vrutkovs",
+			"abhinavdahiya",
+			"deads2k",
+			"crawford",
+	    	"ewolinetz",
+			"csrwng",
+			"staebler"
 		]
 	}
 }

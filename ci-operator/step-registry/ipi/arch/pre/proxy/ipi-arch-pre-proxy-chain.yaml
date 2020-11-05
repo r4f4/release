@@ -1,7 +1,7 @@
 chain:
   as: ipi-arch-pre-proxy
   steps:
-  - chain: ipi-conf-arch-proxy
+#  - chain: ipi-conf-arch-proxy
   - chain: ipi-install
   documentation: |-
     The proxy setup contains all steps that provision an Openshift cluster in a shared configuration on multi-arch behind by a single proxy instance.

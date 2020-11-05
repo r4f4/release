@@ -10,7 +10,7 @@ CONFIG="${SHARED_DIR}/install-config.yaml"
 
 
 cat >> "${CONFIG}" << EOF
-baseDomain: ${LEASED_RESOURCE
+baseDomain: ${LEASED_RESOURCE}
 metadata:
   name: ${CLUSTER_NAME}
 controlPlane:
@@ -34,6 +34,6 @@ compute:
 platform:
   libvirt:
     URI: ${remote_libvirt_uri}
-    network:
+    network: ${NETWORK_NAME}
 EOF
 
