@@ -1,0 +1,13 @@
+workflow:
+  as: ipi-arch-ovn-hybrid-custom-vxlan-port
+  steps:
+    pre:
+    - chain: ipi-conf-arch
+    - ref: ovn-conf
+    - ref: ovn-conf-hybrid-manifest-with-custom-vxlan-port
+    - chain: ipi-install
+    post:
+    - chain: ipi-deprovision
+  documentation: |-
+    OpenShift cluster configured with Hybrid OVN network with custom vxlan port set to 9789
+
