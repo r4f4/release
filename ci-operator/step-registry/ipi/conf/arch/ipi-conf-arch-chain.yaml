@@ -3,6 +3,11 @@ chain:
   steps:
   - ref: ipi-conf
   - ref: ipi-conf-arch
+  env:
+  - name: ARCH
+    default: s390x
+#  - name: MULTIARCH_RELEASE_IMAGE_LATEST
+#    default: 
   documentation: |-
     The IPI configure step chain generates the install-config.yaml file based on the cluster profile and optional input files.
 

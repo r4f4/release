@@ -1,16 +1,13 @@
 workflow:
   as: ipi-arch
   steps:
-#    env:
-#    - name: MULTIARCH_RELEASE_IMAGE_LATEST
-#      REQUIRED_VARIABLE:       
     pre:
     - chain: ipi-arch-pre
     post:
     - chain: ipi-arch-post
-  env:
-  - name: ARCH
-    default: s390x 
+    env:
+      ARCH: "s390x"
+#     MULTIARCH_RELEASE_IMAGE_LATEST: ""
   documentation: |-
     The IPI workflow provides pre- and post- steps that provision and
     deprovision an OpenShift cluster with a default configuration on AWS,

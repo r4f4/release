@@ -5,6 +5,9 @@ ref:
    name: centos
    tag: '8'
   commands: ipi-conf-arch-commands.sh
+  env:
+  - name: ARCH
+#  - name: MULTIARCH_RELEASE_IMAGE_LATEST 
   resources:
     requests:
       cpu: 10m

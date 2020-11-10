@@ -3,6 +3,11 @@ chain:
   steps:
   - chain: ipi-conf-arch
   - chain: ipi-install
+  env:
+  - name: ARCH
+    default: "s390x"
+#  - name: MULTIARCH_RELEASE_IMAGE_LATEST
+#    default: ""
   documentation: |-
     The IPI setup step contains all steps that provision an OpenShift cluster
     with a default configuration on multi-arch(s390x & ppc64le)

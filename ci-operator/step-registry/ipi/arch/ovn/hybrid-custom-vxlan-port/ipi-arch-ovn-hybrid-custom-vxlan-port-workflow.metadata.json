@@ -1,5 +1,5 @@
 {
-	"path": "ipi/arch/ipi-arch-workflow.yaml",
+	"path": "ipi/arch/ovn/hybrid-custom-vxlan-port/ipi-arch-ovn-hybrid-custom-vxlan-port-workflow.yaml",
 	"owners": {
 		"approvers": [
 			"smarterclayton",

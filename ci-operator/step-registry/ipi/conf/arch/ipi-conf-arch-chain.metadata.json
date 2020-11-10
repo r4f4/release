@@ -1,5 +1,5 @@
 {
-	"path": "ipi/arch/ipi-arch-workflow.yaml",
+	"path": "ipi/conf/arch/ipi-conf-arch-chain.yaml",
 	"owners": {
 		"approvers": [
 			"smarterclayton",
