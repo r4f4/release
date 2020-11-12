@@ -1,0 +1,11 @@
+ref:
+  as: multi-arch-e2e-conf
+  from: baremetal-installer
+  commands: multi-arch-e2e-conf-commands.sh
+  resources:
+    requests:
+      cpu: 1000m
+      memory: 500Mi
+  documentation: |-
+    Injects extended test list into e2e-metal-ipi.
+  
