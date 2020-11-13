@@ -1,0 +1,17 @@
+{
+	"path": "multi-arch/e2e/conf/multi-arch-e2e-conf-ref.yaml",
+	"owners": {
+		"approvers": [
+			"smarterclayton",
+			"wking",
+			"stevekuznetsov",
+			"vrutkovs",
+			"abhinavdahiya",
+			"deads2k",
+			"crawford",
+			"ewolinetz",
+			"csrwng",
+			"staebler"
+		]
+	}
+}

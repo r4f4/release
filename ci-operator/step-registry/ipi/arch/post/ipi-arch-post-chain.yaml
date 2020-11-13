@@ -1,7 +1,7 @@
 chain:
   as: ipi-arch-post
   steps:
-  - chain: gather
+#  - chain: gather
   - chain: ipi-deprovision
   documentation: |-
     The IPI cleanup step contains all steps that gather and deprovision an Openshift cluster on multi-arch, provisioned by the 'ipi-arch-pre' chain.

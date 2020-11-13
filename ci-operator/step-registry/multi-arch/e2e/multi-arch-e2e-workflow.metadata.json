@@ -1,0 +1,17 @@
+{
+	"path": "multi-arch/e2e/multi-arch-e2e-workflow.yaml",
+	"owners": {
+		"approvers": [
+			"smarterclayton",
+			"wking",
+			"stevekuznetsov",
+			"vrutkovs",
+			"abhinavdahiya",
+			"deads2k",
+			"crawford",
+			"ewolinetz",
+			"csrwng",
+			"staebler"
+		]
+	}
+}
