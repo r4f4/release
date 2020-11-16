@@ -2,7 +2,7 @@ ref:
   as: ipi-conf-arch
   from_image:
    namespace: origin
-   name: centos
+   name: ubi
    tag: '8'
   commands: ipi-conf-arch-commands.sh
   env:
