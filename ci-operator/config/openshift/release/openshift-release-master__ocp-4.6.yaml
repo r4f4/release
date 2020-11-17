@@ -27,6 +27,20 @@ resources:
       cpu: 100m
       memory: 200Mi
 tests:
+- as: e2e-multi-arch-s390x-ipi
+  cron: 0 0 * * 1
+  steps:
+    cluster_profile: libvirt-s390x
+    pre:
+    - ref: ipi-install-rbac
+    workflow: multi-arch-e2e
+- as: e2e-multi-arch-ppc64le-ipi
+  cron: 0 0 * * 1
+  steps:
+    cluster_profile: libvirt-ppc64le
+    pre:
+    - ref: ipi-install-rbac
+    workflow: multi-arch-e2e
 - as: e2e-metal-ipi
   cron: 0 0 * * 1
   steps:
